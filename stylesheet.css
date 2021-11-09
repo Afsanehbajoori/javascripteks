@@ -1,0 +1,45 @@
+body {
+    background-color : gray;
+  
+}
+h1 {
+color: aqua;
+
+}
+.mainContext{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 2px;
+
+}
+
+#inputList{
+padding: 10px 2px;
+line-height: 28px;
+font-size: 20px;
+
+}
+#btn{
+padding: 10px 2px;
+line-height: 28px;
+font-size: 20px;
+}
+h2{
+color: aqua;
+margin-right: 10px;
+
+}
+#btnClear{
+margin-left: 10px;
+
+}
+/* #temp{
+height: max-content;
+width: max-content;
+} */
+#lableItem{
+font-size: 20px;
+}
+
+
