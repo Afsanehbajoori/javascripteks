@@ -1,5 +1,6 @@
 var takeItems = document.getElementById('inputList');
 var btn = document.getElementById('btn');
+
 //var lableTxt=document.getElementById("lableItem");
 //console.log(lableTxt);
 var list = document.getElementById('list');
@@ -26,8 +27,9 @@ btn.addEventListener('click' , (e) =>{
     ch.id="id";
     
     li.appendChild(ch);
-    li.innerHTML = txt;
-    list.append(li);
+    li.appendChild(document.createTextNode(txt));
+    //li.innerHTML = txt;
+    list.appendChild(li);
     
 
 })
